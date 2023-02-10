@@ -1,0 +1,47 @@
+<mxfile host="65bd71144e">
+    <diagram id="xOJ8_GTC_MR5GrgSY8zg" name="Página-1">
+        <mxGraphModel dx="2191" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Monumento" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="10" width="290" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="- Nombre = &quot;Catedral de Santiago de Compostela&quot;&#10;- Culto = &quot;Católico&quot;&#10;- Estilo = &quot;Romanico, Barroco, Plateresco, Neoclásico&quot;&#10;-Material = &quot;Granito" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="2">
+                    <mxGeometry y="26" width="290" height="74" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Lugar" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="200" width="220" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="- País = &quot;España&quot;&#10;- Comunidad autónoma = &quot;Galicia&quot;&#10;- Provincia = &quot;A Coruña&quot;&#10;- Región = &quot;Santiago de Compostela&quot;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7">
+                    <mxGeometry y="26" width="220" height="124" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.514;entryY=1.026;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="17" target="3">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="400" y="200" as="sourcePoint"/>
+                        <mxPoint x="395" y="110" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="150" y="150"/>
+                            <mxPoint x="399" y="150"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="Incio_Construccón" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="200" width="260" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="- Inicio1etapa = &quot;1075&quot;&#10;- Final1etapa = &quot;1122&quot;&#10;- Consagracion1 = &quot;1128&quot;&#10;- Inicio2etapa = &quot;1168&quot;&#10;- Consagración2 = &quot;3 abril 1211&quot;&#10;- BIC = &quot;1896&quot;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="17">
+                    <mxGeometry y="26" width="260" height="114" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="7">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="550" y="220" as="sourcePoint"/>
+                        <mxPoint x="390" y="150" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="670" y="150"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
